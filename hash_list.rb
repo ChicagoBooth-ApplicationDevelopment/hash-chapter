@@ -14,3 +14,23 @@ list_of_people = [
   { :name => "Carl", :age => 9 },
 ]
 
+#p list_of_people[0][:age]
+
+list_length = list_of_people.length
+
+counter = 0
+while counter < list_length
+  if list_of_people[counter][:age] >= 16
+  p list_of_people[counter][:name]
+  end
+  counter = counter + 1
+end
+
+#counter = 1
+
+#while counter <= list_length
+#  if list_of_people[:age].to_i >= 16
+#  p list_of_people[:name]
+#  counter = counter + 1
+#  end
+#end
